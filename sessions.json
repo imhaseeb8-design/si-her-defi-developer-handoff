@@ -1,0 +1,116 @@
+{
+  "timezone": "America/New_York",
+  "sessions": [
+    {
+      "id": "collective-capital",
+      "title": "Si Her Collective Capital",
+      "speaker": "Wadooah Wali",
+      "date": "2026-10-08",
+      "start": "12:00",
+      "end": "13:00",
+      "action": "calendar",
+      "confirmed": true,
+      "url": "https://ro.am/r/#/d/646_VCGkRoCoi6nPx2T17g/zQqKy4jnuDRS9RzkhZgkzg"
+    },
+    {
+      "id": "web3-womens-day",
+      "title": "National Web3 Women’s Day",
+      "speaker": "Morgen O’Conner",
+      "date": "2026-10-11",
+      "start": null,
+      "end": null,
+      "action": "register",
+      "confirmed": true,
+      "url": "https://www.nationalweb3womensday.com/"
+    },
+    {
+      "id": "tradfi-to-defi",
+      "title": "From TradFi to DeFi",
+      "speaker": "Kara Howard",
+      "date": "2026-10-15",
+      "start": "12:00",
+      "end": "13:00",
+      "action": "calendar",
+      "confirmed": true,
+      "url": "https://ro.am/r/#/d/jujBqkPORHyU7HHuoAOmuw/uMN2iL689HdPwIrCRudG1Q"
+    },
+    {
+      "id": "token-fundamentals",
+      "title": "Token Fundamentals",
+      "speaker": "Diana Ilieva",
+      "date": "2026-10-22",
+      "start": "12:00",
+      "end": "13:00",
+      "action": "calendar",
+      "confirmed": true,
+      "url": "https://ro.am/r/#/d/ZpYYYexPQBWs5KAvpyjM1A/0rtujVSXVmPj_HEmtR1z4Q"
+    },
+    {
+      "id": "stablecoin-confidence",
+      "title": "Stable(coin) Confidence",
+      "speaker": "Esther Wong",
+      "date": "2026-10-29",
+      "start": "12:00",
+      "end": "13:00",
+      "action": "calendar",
+      "confirmed": true,
+      "url": "https://ro.am/r/#/d/aCNGIykUQeyvK8eTIV_iQA/_nBPbD_lL8lDYuatJrGTqw"
+    },
+    {
+      "id": "proof-of-adoption",
+      "title": "Proof of Adoption",
+      "speaker": "Speakers to be announced",
+      "date": "2026-11-04",
+      "start": "13:00",
+      "end": "14:00",
+      "action": "register",
+      "confirmed": true,
+      "url": null
+    },
+    {
+      "id": "what-the-infra",
+      "title": "What the Infra?",
+      "speaker": "Jennifer Kim",
+      "date": "2026-11-05",
+      "start": "12:00",
+      "end": "13:00",
+      "action": "calendar",
+      "confirmed": true,
+      "url": "https://ro.am/r/#/d/0C6lUaeRQf-6R4cf-G3Y6g/H5eo9TDXs0Cesv_QtjvzcA"
+    },
+    {
+      "id": "decentralized-futures",
+      "title": "Decentralized Futures",
+      "speaker": "Ramona Tudorancea",
+      "date": "2026-11-12",
+      "start": "12:00",
+      "end": "13:00",
+      "action": "calendar",
+      "confirmed": true,
+      "url": "https://ro.am/r/#/d/__Ob6vy5SZCWPVkjTteUkw/SO7fNEiPbz7jAU2GDsa_AA"
+    },
+    {
+      "id": "capital-table",
+      "title": "The Capital Table",
+      "speaker": "Speakers to be announced",
+      "date": "2026-12-02",
+      "start": "13:00",
+      "end": "14:00",
+      "action": "register",
+      "confirmed": true,
+      "url": null
+    },
+    {
+      "id": "si-her-trade",
+      "title": "Si Her Trade",
+      "speaker": "Karin Kusano",
+      "date": "2026-12-10",
+      "start": "12:00",
+      "end": "13:00",
+      "action": "calendar",
+      "confirmed": true,
+      "url": "https://ro.am/r/#/d/O6z7Fw7NQRawTAs5YNQtlA/rahaxC4DHVV-xmVn-B7SJQ"
+    }
+  ],
+  "timezone_label": "Eastern time"
+}

@@ -1,0 +1,30 @@
+<mjml>
+  <mj-head>
+    <mj-title>[TEST] Si Her DeFi — Add to calendar</mj-title>
+    <mj-preview>Try the calendar flow for Token Fundamentals. Test event with a placeholder join link.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Arial, Helvetica, sans-serif" />
+      <mj-text color="#141332" font-size="16px" line-height="1.6" />
+      <mj-button background-color="#642d9a" color="#ffffff" font-size="16px" font-weight="600" border-radius="8px" inner-padding="16px 24px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f8f6fb" width="600px">
+    <mj-section background-color="#642d9a" padding="22px 24px">
+      <mj-column><mj-text color="#ffffff" font-size="16px" font-weight="700" padding="0">SI HER DEFI</mj-text></mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="28px 24px 12px">
+      <mj-column>
+        <mj-text color="#642d9a" font-size="13px" font-weight="700" padding="0 0 12px">CALENDAR FLOW TEST</mj-text>
+        <mj-text padding="0 0 20px">Hi Haseeb,<br />Here’s a test session to try the email-to-calendar flow.</mj-text>
+        <mj-text color="#642d9a" font-size="14px" padding="0 0 8px">Thursday, October 22 · 10–11 am US Central time</mj-text>
+        <mj-text font-size="24px" font-weight="700" line-height="1.2" padding="0 0 10px">Token Fundamentals</mj-text>
+        <mj-text padding="0 0 20px" color="#666074">Diana Ilieva<br />Tokenomics Consultant · FinDAs.org</mj-text>
+        <mj-button href="__CALENDAR_URL__" align="left" padding="0 0 24px">Add to calendar</mj-button>
+        <mj-text font-size="14px" padding="0 0 12px" color="#666074">Choose your calendar, review the event and save. Open the join link from the saved event to check the final step.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f2e8fa" padding="18px 24px">
+      <mj-column><mj-text font-size="13px" color="#572786" padding="0">This is a test. Calendar entries are marked [TEST] and use a placeholder destination. US Central time is used for this test only. You can delete the test event afterward.</mj-text></mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

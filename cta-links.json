@@ -1,0 +1,40 @@
+{
+  "links": {
+    "collective-capital": {
+      "label": "Session details and calendar",
+      "href": "https://si-her-defi-calendar-test.imhaseeb8.chatgpt.site/calendar/collective-capital/"
+    },
+    "web3-womens-day": {
+      "label": "Register",
+      "href": "https://www.nationalweb3womensday.com/"
+    },
+    "tradfi-to-defi": {
+      "label": "Session details and calendar",
+      "href": "https://si-her-defi-calendar-test.imhaseeb8.chatgpt.site/calendar/tradfi-to-defi/"
+    },
+    "token-fundamentals": {
+      "label": "Session details and calendar",
+      "href": "https://si-her-defi-calendar-test.imhaseeb8.chatgpt.site/calendar/token-fundamentals/"
+    },
+    "stablecoin-confidence": {
+      "label": "Session details and calendar",
+      "href": "https://si-her-defi-calendar-test.imhaseeb8.chatgpt.site/calendar/stablecoin-confidence/"
+    },
+    "what-the-infra": {
+      "label": "Session details and calendar",
+      "href": "https://si-her-defi-calendar-test.imhaseeb8.chatgpt.site/calendar/what-the-infra/"
+    },
+    "decentralized-futures": {
+      "label": "Session details and calendar",
+      "href": "https://si-her-defi-calendar-test.imhaseeb8.chatgpt.site/calendar/decentralized-futures/"
+    },
+    "si-her-trade": {
+      "label": "Session details and calendar",
+      "href": "https://si-her-defi-calendar-test.imhaseeb8.chatgpt.site/calendar/si-her-trade/"
+    }
+  },
+  "pending": [
+    "proof-of-adoption",
+    "capital-table"
+  ]
+}

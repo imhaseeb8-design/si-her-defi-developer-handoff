@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="Save your Si Her DeFi session to your calendar.">
+  <title>__TITLE__ · Si Her DeFi</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23f8f6fb'/%3E%3Cpath d='M16 3 30 16 16 29 2 16 16 3ZM16 3v26M2 16h28M9 9l7 7 7-7' fill='none' stroke='%23141332' stroke-width='1.5' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <style>
+    :root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; color: #141332; background: #f8f6fb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100svh; display: grid; place-items: center; padding: 36px 20px; }
+    main { width: min(100%, 440px); }
+    .brand { margin: 0 0 24px 4px; }
+    .brand img { display: block; width: min(238px, 72vw); height: auto; filter: brightness(0); }
+    .card { border: 1px solid #e9e2ef; background: #fff; border-radius: 20px; padding: 30px; box-shadow: 0 10px 35px #25103e06; }
+    .eyebrow { margin: 0 0 12px; font-size: 14px; color: #642d9a; font-weight: 600; }
+    h1 { font-size: clamp(24px, 6vw, 30px); line-height: 1.2; letter-spacing: -.6px; margin: 0 0 10px; }
+    .speaker { margin: 0; font-size: 16px; line-height: 1.5; color: #666074; }
+    .when { margin: 22px 0; padding: 16px 0; border-top: 1px solid #eee8f3; border-bottom: 1px solid #eee8f3; font-size: 16px; line-height: 1.6; }
+    .when strong { display: block; font-weight: 600; }
+    .choose { margin: 0 0 12px; font-size: 14px; font-weight: 600; color: #625b6f; }
+    .options { display: grid; gap: 10px; }
+    .option { display: flex; align-items: center; gap: 14px; text-decoration: none; color: #141332; border: 1px solid #ded3e9; border-radius: 10px; padding: 15px 17px; min-height: 58px; font-size: 16px; font-weight: 600; transition: border-color .15s, background .15s; }
+    .option:hover { border-color: #642d9a; background: #faf6ff; }
+    .option svg { width: 24px; height: 24px; flex: none; color: #642d9a; }
+    .option[aria-disabled="true"] { color: #71687b; cursor: default; }
+    .option[aria-disabled="true"]:hover { border-color: #ded3e9; background: #fff; }
+    a:focus-visible { outline: 3px solid #a478c9; outline-offset: 4px; }
+    .work { font-size: 13px; line-height: 1.5; margin: -2px 0 0 17px; color: #71687b; }
+    .work a { color: #642d9a; text-underline-offset: 3px; }
+    .note { text-align: center; color: #71687b; font-size: 14px; line-height: 1.6; margin: 20px 4px 0; }
+    .draft { background: #f2e8fa; color: #572786; border-radius: 8px; padding: 10px 12px; font-size: 13px; line-height: 1.5; margin: 0 0 20px; }
+    .join { margin: 0 0 24px; }
+    .join-label { margin: 0 0 8px; font-size: 14px; font-weight: 600; }
+    .join-row { display: flex; align-items: center; gap: 14px; }
+    .join-row a { min-width: 0; overflow-wrap: anywhere; color: #642d9a; font-size: 14px; line-height: 1.6; text-underline-offset: 3px; }
+    .join-row button { flex: none; }
+    #local-time { font-size: 13px; line-height: 1.5; color: #71687b; margin: 0 0 14px; }
+    #local-time small { display: block; font-size: 12px; margin-top: 2px; }
+    button { border: 0; border-radius: 8px; background: #642d9a; color: white; cursor: pointer; font: inherit; font-weight: 600; padding: 10px 16px; }
+    button:focus-visible { outline: 3px solid #a478c9; outline-offset: 3px; }
+    .manual { margin-top: 22px; color: #625b6f; font-size: 14px; line-height: 1.55; }
+    [hidden] { display: none !important; }
+    @media (max-width: 420px) { body { padding: 24px 16px; } .card { padding: 24px; } }
+    @media (prefers-reduced-motion: reduce) { .option { transition: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand"><img src="/assets/site-logo.png" alt="Si Her DeFi" width="560" height="94"></div>
+    <section class="card" aria-labelledby="title">
+      __DRAFT__
+      <p class="eyebrow">Add to your calendar</p>
+      <h1 id="title">__TITLE__</h1>
+      <p class="speaker">__SPEAKER__</p>
+      <div class="when"><strong>__DATE__</strong>__TIME__</div>
+      <p id="local-time" data-start="__START_ISO__" data-end="__END_ISO__" hidden></p>
+      __JOIN__
+      <p class="choose">Choose your calendar</p>
+      <div class="options">
+        <a class="option" __GOOGLE__><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Google Calendar</a>
+        <a class="option" __OUTLOOK__><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="6" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="m3 8 9 7 9-7" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Outlook</a>
+        <p class="work">Work or school account? <a __MICROSOFT__>Use Microsoft 365</a></p>
+      </div>
+      __MANUAL__
+    </section>
+    <p class="note">Google and Outlook open a prefilled event. Review and save.<br>The session link stays on this page either way.</p>
+  </main>
+  <script>
+    const local = document.getElementById('local-time');
+    if (local.dataset.start && local.dataset.end) {
+      try {
+        const start = new Date(local.dataset.start);
+        const end = new Date(local.dataset.end);
+        const date = new Intl.DateTimeFormat(undefined, { dateStyle: 'medium' }).format(start);
+        const time = new Intl.DateTimeFormat(undefined, { timeStyle: 'short' });
+        const zone = new Intl.DateTimeFormat(undefined, { timeZoneName: 'short' })
+          .formatToParts(start).find(part => part.type === 'timeZoneName')?.value || '';
+        local.textContent = `Your local time: ${date}, ${time.format(start)} – ${time.format(end)} ${zone}`.trim();
+        const note = document.createElement('small');
+        note.textContent = 'Based on your local time zone settings.';
+        local.append(note);
+        local.hidden = false;
+      } catch {
+        // The confirmed Mexico City and UTC times above remain available.
+      }
+    }
+    const copy = document.getElementById('copy-link');
+    if (copy) copy.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(copy.dataset.url);
+        copy.textContent = 'Copied';
+        setTimeout(() => { copy.textContent = 'Copy'; }, 2000);
+      } catch {
+        copy.textContent = 'Select link';
+        document.getElementById('session-link').focus();
+      }
+    });
+  </script>
+</body>
+</html>

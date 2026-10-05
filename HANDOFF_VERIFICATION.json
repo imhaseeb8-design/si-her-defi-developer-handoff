@@ -1,0 +1,33 @@
+{
+  "prepared_date": "2026-10-05",
+  "source_site_version": 16,
+  "source_commit": "9916f990a039401fd2a12d8bcd5f28cc979f9d6c",
+  "calendar_tests_passed": 8,
+  "mjml_version": "4.18.0",
+  "strict_mjml_compilation": "passed; no errors or warnings reported",
+  "active_source_files_byte_identical": [
+    "build.py",
+    "page.html",
+    "sessions.json",
+    "newsletter.py",
+    "package_site.py",
+    "test_calendar.py",
+    "test-email-template.mjml",
+    "cta-links.json",
+    "email-ctas.mjml"
+  ],
+  "all_assets_byte_identical": true,
+  "generated_website_byte_identical_to_live_source": true,
+  "generated_website_files": 33,
+  "email_mjml_and_html_byte_identical": true,
+  "loops_zip_entries_content_identical": true,
+  "rendered_newsletter_destinations": 12,
+  "body_mjml_buttons_with_valid_nonempty_href": 10,
+  "referenced_email_images": 14,
+  "secret_pattern_scan": {
+    "selected_text_files": 37,
+    "matches": 0,
+    "limitations": "Pattern scan of selected public text files, not a guarantee against every possible secret format."
+  },
+  "open_item": "Loops Guardian reports one (No text) missing-button-link finding; actual body MJML buttons all have href values. See docs/EMAIL_AND_LOOPS.md."
+}

@@ -1,0 +1,12 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.DS_Store
+.openai/
+/newsletter.mjml
+/newsletter.html
+/test-email.mjml
+/test-email.html
