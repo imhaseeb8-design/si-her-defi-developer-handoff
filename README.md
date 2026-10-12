@@ -15,6 +15,7 @@ The repository includes the seven real Ro.am session destinations, original sour
 | Document | What it explains |
 |---|---|
 | [Developer handoff](docs/DEVELOPER_HANDOFF.md) | Architecture, source files, dependencies, deployment and editing rules |
+| [App user flow](docs/APP_USER_FLOW.md) | App onboarding, quiz failures, certificate, minting and dashboard state rules; maintained from the separate app prototype |
 | [Guest flow](docs/GUEST_FLOW.md) | Newsletter → session page → join, copy, calendar providers or manual calendar entry |
 | [Session reference](docs/SESSION_REFERENCE.md) | Every session, speaker, full time range, calendar page and real destination |
 | [Email and Loops](docs/EMAIL_AND_LOOPS.md) | Responsive design, dark mode, upload package, personalization and Guardian warning |
